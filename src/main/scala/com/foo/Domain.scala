@@ -154,7 +154,6 @@ case class Member(
   birthDate: LocalDate
 ) extends Person
 
-
 // Book types
 sealed trait Cover
 case object HardCover extends Cover
